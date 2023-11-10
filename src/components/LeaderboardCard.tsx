@@ -53,7 +53,7 @@ function LeaderboardCard() {
           key={e.videoId}
           className={`${
             colors[index % 10]
-          } w-[500px] bg-  rounded-[100px] flex my-5`}
+          } w-[500px] rounded-[100px] flex my-5`}
         >
           <td className="w-24 h-20 flex justify-center items-center">
             {index === 0 && (
@@ -95,7 +95,7 @@ function LeaderboardCard() {
               <span className="font-semibold text-lg">{e.artists}</span>
             </div>
           </td>
-          <td className="flex items-center mx-10 text-2xl font-bold">50</td>
+          <td className="flex items-center mx-10 text-2xl font-bold">{(index+1)*10}</td>
         </Reorder.Item>
       ))}
     </Reorder.Group>
