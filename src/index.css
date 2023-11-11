@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,7 +21,7 @@
 }
 
 html {
-  background-image: url('https://images8.alphacoders.com/133/1337140.png');
+  background-image: url('https://raw.githubusercontent.com/jenisnmm/images/main/1337140.webp')/*url('https://images8.alphacoders.com/133/1337140.png')*/;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -30,6 +31,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   min-height: 100vh;
 }
